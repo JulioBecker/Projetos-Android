@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnConectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="168dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtStatusConn"/>
+
+    <TextView
+        android:id="@+id/txtStatusConn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Button
+        android:id="@+id/btnFrente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConectar"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Frente" />
+
+    <Button
+        android:id="@+id/btnEsquerda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConectar"
+        android:layout_toLeftOf="@id/btnFrente"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Esquerda" />
+
+    <Button
+        android:id="@+id/btnDireita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConectar"
+        android:layout_toRightOf="@id/btnFrente"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Direita" />
+
+    <Button
+        android:id="@+id/btnTras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConectar"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Trás" />
+
+    <Button
+        android:id="@+id/btnChute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConectar"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:text="Chute" />
+
+</RelativeLayout>

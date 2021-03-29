@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/webview1"
+        android:layout_width="199dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <WebView
+        android:id="@+id/webview2"
+        android:layout_width="197dp"
+        android:layout_height="166dp"
+        android:layout_below="@id/webview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webview2"
+        android:layout_marginStart="72dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webview2"
+        android:layout_toRightOf="@id/play"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webview2"
+        android:layout_toRightOf="@id/stop"
+        android:text="Record" />
+
+
+
+</RelativeLayout>

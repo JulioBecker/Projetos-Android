@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565203477337",
+    "firebase_url": "https://thalindaapp.firebaseio.com",
+    "project_id": "thalindaapp",
+    "storage_bucket": "thalindaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565203477337:android:9169e5e4a13d7c4effa248",
+        "android_client_info": {
+          "package_name": "com.example.thalindaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565203477337-jptbl415jmas7u4se96fjs1mvqutt1os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thalindaapp",
+            "certificate_hash": "baf99622818a8fa527e63357996399f667dc7d7a"
+          }
+        },
+        {
+          "client_id": "565203477337-o6hdpoks9rjn9nre4no4cv8hujqbiqo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBozHymDF8R2F4fIkcrmZzf9TnW_sTkKVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565203477337-o6hdpoks9rjn9nre4no4cv8hujqbiqo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
